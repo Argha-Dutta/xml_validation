@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="employee_schema.xsd">
+    <employee id="1">
+        <personalInformation>
+            <firstName>John</firstName>
+            <lastName>Doe</lastName>
+            <dateOfBirth>1990-05-15</dateOfBirth>
+            <gender>Male</gender>
+        </personalInformation>
+        <employmentInformation>
+            <position>Software Engineer</position>
+            <salary>80000</salary>
+        </employmentInformation>
+        <contactInformation>
+            <email>john.doe@example.com</email>
+            <phoneNumber>123-456-7890</phoneNumber>
+        </contactInformation>
+    </employee>
+    <employee id="2">
+        <personalInformation>
+            <firstName>Jane</firstName>
+            <lastName>Smith</lastName>
+            <dateOfBirth>1985-10-20</dateOfBirth>
+            <gender>Female</gender>
+        </personalInformation>
+        <employmentInformation>
+            <position>Marketing Manager</position>
+            <salary>75000</salary>
+        </employmentInformation>
+        <contactInformation>
+            <email>jane.smith@example.com</email>
+            <phoneNumber>987-654-3210</phoneNumber>
+        </contactInformation>
+    </employee>
+    <employee id="3">
+        <personalInformation>
+            <firstName>Michael</firstName>
+            <lastName>Johnson</lastName>
+            <dateOfBirth>1988-12-03</dateOfBirth>
+            <gender>Male</gender>
+        </personalInformation>
+        <employmentInformation>
+            <position>Project Manager</position>
+            <salary>90000</salary>
+        </employmentInformation>
+        <contactInformation>
+            <email>michael.johnson@example.com</email>
+            <phoneNumber>555-123-4567</phoneNumber>
+        </contactInformation>
+    </employee>
+</employees>
